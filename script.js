@@ -16,5 +16,6 @@ function EarnJ(x) {
 }
 
 window.setInterval(function() {
-    update()
+    update("j", "You have " + joules + " joules,")
+    update("w", "being consumed by 0 watts.")
 }, 33)
